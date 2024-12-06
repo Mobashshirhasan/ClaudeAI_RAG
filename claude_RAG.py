@@ -71,7 +71,7 @@ llm = ChatAnthropic(
  # Pull the prompt from the hub
 prompt = hub.pull("rlm/rag-prompt")
 
-# Set up the RetrievalQA chain
+#  Set up the RetrievalQA chain
 qa_chain = RetrievalQA.from_chain_type(
     llm,
     retriever=faiss_db.as_retriever(),
