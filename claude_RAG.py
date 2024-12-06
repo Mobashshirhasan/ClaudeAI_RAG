@@ -34,7 +34,7 @@ for filename in os.listdir(pdf_directory):
 if not all_documents:
     raise ValueError("No PDF files were found or loaded successfully")
 
- # Split the text into chunks
+ #  Split the text into chunks
 text_splitter = RecursiveCharacterTextSplitter(
     chunk_size=1000,
     chunk_overlap=200,
