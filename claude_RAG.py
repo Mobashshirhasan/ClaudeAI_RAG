@@ -19,7 +19,7 @@ pdf_directory = " "  # Enter your path,where your pdfs is stored
 # Initialize an empty list to store all documents
 all_documents = []
 
- # Load all PDF files from the directory
+# Load all PDF files from the directory
 for filename in os.listdir(pdf_directory):
     if filename.endswith('.pdf'):
         pdf_path = os.path.join(pdf_directory, filename)
