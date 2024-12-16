@@ -16,7 +16,7 @@ client = anthropic.Anthropic(api_key=api_key)
 # Directory containing PDF files
 pdf_directory = " "  # Enter your path,where your pdfs is stored
 
-#Initialize an empty list to store all documents
+# Initialize an empty list to store all documents
 all_documents = []
 
 # Load all PDF files from the directory
