@@ -42,7 +42,7 @@ text_splitter = RecursiveCharacterTextSplitter(
 )
 chunks = text_splitter.split_documents(all_documents)
 
-#Use OpenAI Embeddings for the document processing
+# Use OpenAI Embeddings for the document processing
 embedding = OpenAIEmbeddings(model="text-embedding-3-large")
 
 # Create a FAISS index and store the embeddings
