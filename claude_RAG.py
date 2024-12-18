@@ -85,7 +85,7 @@ def ask_question(question):
     result = qa_chain({"query": question})
     return result["result"] if "result" in result else result
 
-# Example usage
+#  Example usage
 while True:
     user_question = input("\nAsk a question about your PDFs (or type 'exit' to quit): ")
     if user_question.lower() == 'exit':
