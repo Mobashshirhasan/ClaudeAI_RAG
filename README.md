@@ -13,7 +13,7 @@ This project is a Python-based application that allows you to upload a directory
 ---
 
 ## Prerequisites
-Ensure you have the following installed on your system:
+Ensure you have the following installed on your system :
 - Python 3.8 or later
 - `langchain`, `langchain_community`, `langchain_openai`, `langchain_anthropic`, `anthropic`
 - FAISS library
