@@ -1,6 +1,6 @@
 # PDF Querying System Using LangChain and Claude AI
 
-This project is a Python-based application that allows you to upload a directory of PDF documents, create embeddings for their content using OpenAI, store them in a FAISS vector database, and query the documents using Anthropic's Claude AI model .
+This project is a Python-based application that allows you to upload a directory of PDF documents, create embeddings for their content using OpenAI, store them in a FAISS vector database, and query the documents using Anthropic's Claude AI model.
 
 ## Features
 - **PDF Processing**: Loads PDF files from a specified directory.
