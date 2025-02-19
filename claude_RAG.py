@@ -48,7 +48,7 @@ embedding = OpenAIEmbeddings(model="text-embedding-3-large")
 # Create a FAISS index and store the embeddings
 faiss_db = FAISS.from_documents(documents=chunks, embedding=embedding)
 
-# Save the FAISS index locally
+ # Save the FAISS index locally
 index_name = "faiss_index_all_pdfs"
 faiss_db.save_local(f"./{index_name}")
 
