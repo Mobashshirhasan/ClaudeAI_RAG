@@ -13,7 +13,7 @@ import anthropic
 api_key = os.environ.get("ANTHROPIC_API_KEY")   
 client = anthropic.Anthropic(api_key=api_key)
 
- # Directory containing PDF files
+# Directory containing PDF files
 pdf_directory = " "  # Enter your path,where your pdfs is stored
 
 # Initialize an empty list to store all documents
